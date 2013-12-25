@@ -50,7 +50,7 @@ table {
 .sr-only{
 	position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); border: 0;
 }
-.btn{border:none; background: #fff; white-space:nowrap; font-weight: 400; display: inline-block; text-align: center; cursor: pointer;}
+.btn{border:none; background: #fff; white-space:nowrap; font-weight: 400; display: inline-block; text-align: center; cursor: pointer; -webkit-appearance: none;}
 .btn, .btn:hover{text-decoration: none;}
 .btn-block{display: block; width: 100%; padding: 0; margin:0;}
 .btn-or, .btn-or:hover{border:0.5px solid #e05c13; background: #f57b18; border-radius: 3px; font-size: 9px; padding:2px 4px 3px; color: #fff; text-decoration: none;}
@@ -73,7 +73,7 @@ footer{width: 100%; min-width: 240px;}
 footer p{font-size: 8px; color: #999; text-align: center; margin: 15px 0;}
 nav{height: 36px; line-height: 36px; border-top:1px solid #dadbdf; border-bottom:1px solid #dadbdf; background: #f4f4f4;}
 nav h1, .reback{font-size: 17px; font-weight: bold; text-align: center; color:#333; }
-h4, h4 a, h4 a:hover{color: #11b0e4; font-weight: bold;}
+h4, h4 a, h4 a:hover{color: #11b0e4;}
 h4 a, h4 a:hover{text-decoration: none;}
 h3{font-size: 16px; color: #333; font-weight: bold;}
 .container{min-width: 240px;}
@@ -90,7 +90,7 @@ h3{font-size: 16px; color: #333; font-weight: bold;}
 
 .form-wrap{margin:20px 15px;}
 .form-group{margin-bottom: 10px;}
-.form-group .form-control{display: block; width: 100%; border:1px solid #ccc; padding: 10px 5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; vertical-align: middle;}
+.form-group .form-control{display: block; width: 100%; border:1px solid #ccc; font-size: 14px; padding: 10px 5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; vertical-align: middle;}
 .form-group .form-inline{display: inline-block; width: 61%;}
 .form-group-ck .btn-ck{width:35%; float: right;}
 
@@ -101,7 +101,7 @@ h3{font-size: 16px; color: #333; font-weight: bold;}
 .reg footer, .banknum footer{ margin-top: 100px;}
 
 /* list */
-.item{padding:15px 0; border-bottom:1px solid #ccc; overflow: hidden; zoom:1;}
+.item{padding:15px 0; border-bottom:1px solid #eaeaea; overflow: hidden; zoom:1;}
 .item .item-l{float: left; margin-left: 15px; width: 40%;}
 .item .item-r{float: right; margin-right: 15px; width: 45%; text-align: right;}
 .item .tit{font-size: 18px; color: #333; font-weight: bold; padding:8px 0 12px;}
@@ -123,15 +123,15 @@ h3{font-size: 16px; color: #333; font-weight: bold;}
 .item-d .item-r{width:25%;}
 .item-d .tit{padding-bottom: 10px;}
 
-.label{margin:15px; border:1px solid #eee; border-radius: 5px;}
-.label .label-head{height: 34px; line-height: 34px; text-indent: 10px; border-bottom: 1px solid #eee;}
+.label{margin:15px; border:1px solid #eaeaea; border-radius: 5px;}
+.label .label-head{height: 34px; line-height: 34px; text-indent: 10px; border-bottom: 1px solid #eaeaea;}
 .label .label-body{padding: 10px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 .label .label-body h4{padding-bottom: 8px;}
 .label .label-body p{line-height: 1.6;}
 
-.content{padding: 15px; border-top: 1px solid #eee; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.content{padding: 15px; border-top: 1px solid #eaeaea; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 .content h3{line-height: 28px;}
-.content h4{margin-top: 50px; text-align: center; line-height: 1.4;}
+.content h4{margin-top: 50px; text-align: center; line-height: 1.4; font-size: 12px;}
 .content p{line-height: 1.6;}
 
 /*  banknum */
@@ -143,4 +143,4 @@ h3{font-size: 16px; color: #333; font-weight: bold;}
 .item dl dt{float: left; width: 60px; height: 60px; overflow: hidden; margin-right: 10px;}
 .item dl dd{margin-top: 5px;}
 .item dl dd .tit{padding-top: 12px;}
-.item .hint{margin:15px 15px 0; line-height: 1.5;}
+.item .hint{margin:15px 15px 0; line-height: 1.5; font-size: 16px;}
