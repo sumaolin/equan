@@ -53,7 +53,7 @@ table {
 .btn{border:none; background: #fff; white-space:nowrap; font-weight: 400; display: inline-block; text-align: center; cursor: pointer;}
 .btn, .btn:hover{text-decoration: none;}
 .btn-block{display: block; width: 100%; padding: 0; margin:0;}
-.btn-or, .btn-or:hover{border:1px solid #e05c13; background: #f57b18; border-radius: 3px; font-size: 9px; padding:2px 4px; color: #fff; text-decoration: none;}
+.btn-or, .btn-or:hover{border:0.5px solid #e05c13; background: #f57b18; border-radius: 3px; font-size: 9px; padding:2px 4px 3px; color: #fff; text-decoration: none;}
 
 .btn-ck{border:1px solid #ccc; padding: 10px 5px;  border-radius: 5px; color: #666;
 	box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;
@@ -66,26 +66,26 @@ table {
 	background: -moz-linear-gradient(top, #eee, #fff);
 	background: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#fff));
 }
-.btn-blue{border:1px solid #11b0e4; background: #24c6fb; padding: 10px; color: #fff; font-weight: bold; border-radius: 5px;}
+.btn-blue{border:1px solid #11b0e4; background: #24c6fb; padding: 10px; color: #fff; font-weight: bold; border-radius: 5px; font-size: 14px;}
 
 header{min-width: 240px;}
-footer{width: 100%; min-width: 240px; height: 30px; margin-top: 10px;}
-footer p{font-size: 8px; color: #999; text-align: center; margin-bottom: 10px;}
+footer{width: 100%; min-width: 240px;}
+footer p{font-size: 8px; color: #999; text-align: center; margin: 15px 0;}
 nav{height: 36px; line-height: 36px; border-top:1px solid #dadbdf; border-bottom:1px solid #dadbdf; background: #f4f4f4;}
 nav h1, .reback{font-size: 17px; font-weight: bold; text-align: center; color:#333; }
-h4, h4 a, h4 a:hover{font-size: 12px; color: #11b0e4; font-weight: bold;}
+h4, h4 a, h4 a:hover{color: #11b0e4; font-weight: bold;}
 h4 a, h4 a:hover{text-decoration: none;}
-h3{font-size: 14px; color: #333; font-weight: bold;}
+h3{font-size: 16px; color: #333; font-weight: bold;}
 .container{min-width: 240px;}
-/**/
+/* reg */
 .banner{height: 65px; background: #36373a; padding: 15px; color: #fff; font-size: 12px;}
 .banner a, .banner a:hover{color: #fff; text-decoration: none;}
 .media{width: 100%; height: auto; overflow: hidden;}
 .media dt{float: left;  width:59px; height: 59px; border: 2px solid #fff; margin-right: 15px;}
 .media dt img{width: 100%; height: 100%;}
 .media dd{overflow: hidden; zoom:1;}
-.media dd h3{font-size: 16px; height: 16px; font-weight: bold; margin-bottom: 5px; color: #fff;}
-.media dd h3 .btn-or{font-weight: normal; font-size: 9px;}
+.media dd h3{font-size: 18px; height: 16px; font-weight: bold; margin-bottom: 10px; color: #fff;}
+.media dd h3 .btn-or{font-weight: normal; font-size: 9px; line-height: normal;}
 .media dd p{line-height: 1.3;}
 
 .form-wrap{margin:20px 15px;}
@@ -95,14 +95,16 @@ h3{font-size: 14px; color: #333; font-weight: bold;}
 .form-group-ck .btn-ck{width:35%; float: right;}
 
 .form-group input[type=checkbox]{vertical-align: middle;}
-.form-group small{font-size: 10px; color: #666;}
+.form-group small{font-size: 12px; color: #666;}
 .form-group .btn-blue{margin-top: 20px;}
+
+.reg footer, .banknum footer{ margin-top: 100px;}
 
 /* list */
 .item{padding:15px 0; border-bottom:1px solid #ccc; overflow: hidden; zoom:1;}
 .item .item-l{float: left; margin-left: 15px; width: 40%;}
 .item .item-r{float: right; margin-right: 15px; width: 45%; text-align: right;}
-.item .tit{font-size: 15px; color: #333; font-weight: bold; padding:8px 0 12px;}
+.item .tit{font-size: 18px; color: #333; font-weight: bold; padding:8px 0 12px;}
 .item .detail{line-height: 1.2;}
 .item .btn-block{width: auto; padding: 10px 0; margin-top: 15px;}
 .item .thumbnail{width: 59px; height: 59px; border:1px solid #ccc;}
@@ -122,7 +124,7 @@ h3{font-size: 14px; color: #333; font-weight: bold;}
 .item-d .tit{padding-bottom: 10px;}
 
 .label{margin:15px; border:1px solid #eee; border-radius: 5px;}
-.label .label-head{height: 28px; line-height: 28px; text-indent: 10px; border-bottom: 1px solid #eee;}
+.label .label-head{height: 34px; line-height: 34px; text-indent: 10px; border-bottom: 1px solid #eee;}
 .label .label-body{padding: 10px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 .label .label-body h4{padding-bottom: 8px;}
 .label .label-body p{line-height: 1.6;}
