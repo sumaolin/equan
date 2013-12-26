@@ -75,7 +75,7 @@ nav{height: 36px; line-height: 36px; border-top:1px solid #dadbdf; border-bottom
 nav h1, .reback{font-size: 17px; font-weight: bold; text-align: center; color:#333; }
 h4, h4 a, h4 a:hover{color: #11b0e4;}
 h4 a, h4 a:hover{text-decoration: none;}
-h3{font-size: 16px; color: #333; font-weight: bold;}
+h3{font-size: 14px; color: #333; font-weight: bold;}
 .container{min-width: 240px;}
 /* reg */
 .banner{height: 65px; background: #36373a; padding: 15px; color: #fff; font-size: 12px;}
